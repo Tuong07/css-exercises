@@ -6,12 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class and ID Selectors</title>
     <link rel="stylesheet" href="style.css">
-  </head>
+<!-- Adding the style to the html files -->
+    <style>
+      p {
+        color: black;
+        background: pink;
+        font-family: Verdana;
+      }
+
+      .font {
+        font-size: x-large;
+      }
+
+      .number1 {
+        font-size: xx-large;
+        color: blue;
+        font-family: Verdana;
+      }
+
+      .number2 { 
+        font-size: x-large;
+        color: black;
+        background-color: greenyellow;
+        font-family: Verdana;
+      }
+
+    </style>
+  
+
+</head>
   <body>
     <p>Number 1 - I'm a class!</p>
-    <div>Number 2 - I'm one ID.</div>
-    <p>Number 3 - I'm a class, but cooler!</p>
-    <div>Number 4 - I'm another ID.</div>
+    <div class="number1">Number 2 - I'm one ID.</div>
+    <p class="font">Number 3 - I'm a class, but cooler!</p>
+    <strong><div class="number2">Number 4 - I'm another ID.</div></strong>
     <p>Number 5 - I'm a class!</p>
   </body>
 </html>
